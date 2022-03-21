@@ -18,7 +18,7 @@ external_port =  local.external_port
 
 ## Example
 
-* link to git repo
+[Example of usecase](https://github.com/Aa-kk/terraform-docker-webserver/blob/main/example/example.tf)
 * which shows how to create a dashboard with this module.
 
 ## Requirements
