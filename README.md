@@ -9,7 +9,7 @@ A static website image that is based of nginx was pulled from dockerhub and run 
 
  ```
 module  "aks_container"{
-source  =  "../"
+source  =  "github.com/Aa-kk/terraform-docker-webserver?ref=v1.0.1"
 image_name =  local.image_name
 internal_port =  local.internal_port
 external_port =  local.external_port
@@ -47,7 +47,13 @@ The following variables need to be declared. they can be set as default or added
 | External port | Port number exposed by the host machine to the webserver| Number |
 
 
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| container_id | The id of the running container|
+
 
 ## Authors
 
-Module managed by [Akachukwu Mba]
+Module managed by [Akachukwu Mba](https://github.com/Aa-kk)
