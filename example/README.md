@@ -9,18 +9,22 @@ To run this example there are two ways,
 
 1. To execute, you can run:
 
-bash
+
 $ terraform init
+
 $ terraform plan
+
 $ terraform apply
 
 Run `terraform destroy` when you don't need these resources.
 
 2. To execute, you can also run:
 
-bash
+
 $ make init
+
 $ make plan
+
 $ make apply
 
 
