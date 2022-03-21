@@ -22,5 +22,5 @@ resource "docker_container" "webservercontainer" {
 }
 
 output "volumes" {
-  value = docker_container.webservercontainer.volumes
+  value = docker_container.webservercontainer.id
 }
