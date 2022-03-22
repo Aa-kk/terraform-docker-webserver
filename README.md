@@ -19,13 +19,13 @@ external_port =  local.external_port
 ## Example
 
 [Example of usecase](https://github.com/Aa-kk/terraform-docker-webserver/blob/main/example/example.tf)
-* which shows how to create a dashboard with this module.
+* which shows how to create a containerized webserver with this module.
 
 ## Requirements
 
 | Name | Version | Source |
 |------|---------|---------|
-| terraform | >= 1.1.7 |
+| terraform | >= 0.13 |
 | docker | >= 2.16.0 | kreuzwerker/docker
 
 
@@ -33,8 +33,7 @@ external_port =  local.external_port
 ## Providers
 ### Docker Provider
 
-Since the Docker provider uses the Docker API, it is immediately compatible with single server Docker 
-
+The Docker provider is used to interact with Docker containers and images. It uses the Docker API to manage the lifecycle of Docker containers. since the Docker provider uses the Docker API, it is immediately compatible with single server Docker.
 
 
 ## Inputs
