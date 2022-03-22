@@ -27,6 +27,8 @@ $ make plan
 
 $ make apply
 
+$ make destroy
+
 
 
 ## Requirements
@@ -37,10 +39,9 @@ $ make apply
 | docker | >= 2.16.0 |
 
 ## Providers
-### DataDog provider
+### Docker provider
 
-
-Since the Docker provider uses the Docker API, it is immediately compatible with single server Docker 
+The Docker provider is used to interact with Docker containers and images. It uses the Docker API to manage the lifecycle of Docker containers. since the Docker provider uses the Docker API, it is immediately compatible with single server Docker. 
 
 ## Inputs
 
